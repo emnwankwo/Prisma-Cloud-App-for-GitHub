@@ -1,0 +1,25 @@
+# Define the failure criteria for creating checks.
+
+failure_criteria_for_creating_checks:
+  high: 1
+  medium: 1
+  low: 1
+  operator: or
+
+# Define the failure criteria for creating issues.
+
+failure_criteria_for_creating_issues:
+  high: 1
+  medium: 1
+  low: 1
+  operator: or
+
+# Define github asset name
+
+github_asset_name: "Github Asset Dev"
+
+# Define tags
+
+tags:
+- phase:testing
+- env:QA
